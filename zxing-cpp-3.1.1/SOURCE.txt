@@ -1,0 +1,7 @@
+zxing-cpp 3.1.1 test/samples, Apache 2.0.
+https://github.com/zxing-cpp/zxing-cpp
+
+Only files whose bytes are not already under src/test/resources.
+The PNG copies that the unit tests read stay there. WebP originals are here
+because ImageIO does not read them. This directory is not on the test classpath
+and is not part of Samples.all().
